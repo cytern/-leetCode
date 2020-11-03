@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ListNode {
     int val;
-    List next;
+    ListNode next;
     ListNode(int x){
         val = x;
         next = null;
